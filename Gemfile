@@ -35,19 +35,19 @@ gem 'nokogiri'
 
 gem 'SystemTimer' if RUBY_VERSION =~ /^1.8/
 
-group :test, :development do
-  gem "rspec", "~> 2.0"
-  gem "rspec-rails", "~> 2.0"
-  gem "factory_girl_rails"
-  gem "shoulda-matchers"
-  gem "rcov"
-  gem "delorean"
-  gem "watchr"
-  # gem "capybara"
-  # gem 'yard'
-  # gem "bluecloth"
-end
-
+# group :test, :development do
+#   gem "rspec", "~> 2.0"
+#   gem "rspec-rails", "~> 2.0"
+#   gem "factory_girl_rails"
+#   gem "shoulda-matchers"
+#   gem "rcov"
+#   gem "delorean"
+#   gem "watchr"
+#   # gem "capybara"
+#   # gem 'yard'
+#   # gem "bluecloth"
+# end
+# 
 # State machine
 # gem 'aasm'
 # gem 'state_machine'
@@ -74,3 +74,5 @@ end
 
 # Full-text search engine
 # gem 'thinking-sphinx', '~> 2.0.2', :require => 'thinking_sphinx'
+#
+gem 'rdiscount'
